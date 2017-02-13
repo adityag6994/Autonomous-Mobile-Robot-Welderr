@@ -1,1 +1,1 @@
-# dynamics_project_wpi
+# Autonomous welding UR5 hand manipulator to detect cracks on wall and weld it autonomously. Used Kinect from Gazebo to perceive cracks, from which waypoints were extracted using k-NN algorithm. Used RRT algorithm for motion planning and obstacle avoidance to trace extracted waypoints as desired trajectory. Implemented it in ROS framework in C++ using OpenCV, MoveIt, Gazebo and RViz.

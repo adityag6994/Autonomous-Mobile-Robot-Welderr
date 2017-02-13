@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<launch>
+
+  <include file="$(find ur5_moveit_config)/launch/demo.launch"/>
+
+  <node name="image2points" pkg="wpi_ur5" type="image2points" respawn="false" output="screen"/>
+
+  <node name="move_group_ur5" pkg="wpi_ur5" type="move_group_ur5" respawn="false" output="screen"/>
+
+  
+
+</launch>

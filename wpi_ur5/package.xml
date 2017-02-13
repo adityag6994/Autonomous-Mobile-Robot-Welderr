@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<package>
+  <name>wpi_ur5</name>
+  <version>0.0.0</version>
+  <description>The wpi_ur5 package</description>
+  <author email="vmunusamykabilan@wpi.edu">Vishaal</author>
+  <maintainer email="vmunusamykabilan@wpi.edu">Vishaal</maintainer>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>pluginlib</build_depend>
+  <build_depend>moveit_core</build_depend>
+  <build_depend>moveit_ros_planning_interface</build_depend>
+  <build_depend>moveit_ros_perception</build_depend>
+  <build_depend>interactive_markers</build_depend>
+  <build_depend>cmake_modules</build_depend>
+  <build_depend>geometric_shapes</build_depend>
+
+  <build_depend>image_transport</build_depend>
+  <build_depend>cv_bridge</build_depend>
+  <build_depend>OpenCV</build_depend>
+
+  <!-- <build_depend>OpenCV</build_depend> -->
+
+  <run_depend>pluginlib</run_depend>
+  <run_depend>moveit_core</run_depend>
+  <run_depend>moveit_fake_controller_manager</run_depend>
+  <run_depend>moveit_ros_planning_interface</run_depend>
+  <run_depend>moveit_ros_perception</run_depend>
+  <run_depend>interactive_markers</run_depend>
+  <run_depend>ur5_moveit_config</run_depend>
+
+  <run_depend>image_transport</run_depend>
+  <run_depend>cv_bridge</run_depend>
+  <run_depend>OpenCV</run_depend>
+
+  <!-- <run_depend>OpenCV</run_depend> -->
+  
+</package>
